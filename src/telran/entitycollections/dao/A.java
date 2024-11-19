@@ -1,15 +1,15 @@
 package telran.entitycollections.dao;
 
-import java.util.ArrayList;
 import java.util.Collections;
-import java.util.List;
+import java.util.HashSet;
+import java.util.Set;
 
 import telran.entitycollections.interfaces.Entity;
 import telran.entitycollections.interfaces.EntityCollection;
 
 public class A implements EntityCollection {
 	
-	List<Entity> entityA = new ArrayList<>();
+	Set<Entity> entityA = new HashSet<>();
 	
 	// O(1)
 	@Override
